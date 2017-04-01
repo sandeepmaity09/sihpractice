@@ -1,0 +1,54 @@
+<!--///<reference path="../typings/jquery/jquery.d.ts" />-->
+<!--<div id="login-box">
+  <div class="left">
+    <h1>Leave Management System</h1>
+    <h1>Sign up</h1>
+    
+    <input type="text" name="username" placeholder="Username" />
+    <input type="text" name="email" placeholder="E-mail" />
+    <input type="password" name="password" placeholder="Password" />
+    <input type="password" name="password2" placeholder="Retype password" />
+    
+    <button type="submit" name="signup_submit" value="Sign me up" (click)="goToLogin()">Sign Up</button>
+    <button type="button" class="button buttonBlue" (click)="goToLogin()">Sign Up
+        <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div><
+    </button>
+  </div>
+  
+  <div class="right">
+    <span class="loginwith">Sign in with<br />social network</span>
+    
+    <button class="social-signin facebook">Log in with facebook</button>
+    <button class="social-signin twitter">Log in with Twitter</button>
+    <button class="social-signin google">Log in with Google+</button>
+  </div>
+  <div class="or">OR</div>
+</div>-->
+
+
+<div id="signin">
+<div>
+  <h1>Leave Management System</h1>
+  <h3>New User? Sign Up here</h3>
+</div>
+<form>
+  <div class="group">
+    <input type="text"><span class="highlight"></span><span class="bar"></span>
+    <label>Username: </label>
+  </div>
+  <div class="group">
+      <input type="email"><span class="highlight"></span><span class="bar"></span>
+      <label>Email: </label>
+  </div>
+  <div class="group">
+      <input type="password"><span class="highlight"></span><span class="bar"></span>
+      <label>Password: </label>
+  </div>
+  <div class="group">
+    <input type="password"><span class="highlight"></span><span class="bar"></span>
+    <label>Re-Enter Password: </label>
+  </div>
+  <button type="button" class="button buttonBlue" (click)="goToLogin()">Sign Up
+    <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+  </button>
+</form>
